@@ -1,9 +1,13 @@
 # zernikePolynomialsPython
 Create Zernike polynomials in python.
-Created by Sergio Bonaque-Gonzalez
-Optical engineer, PhD
+
+Created by Sergio Bonaque-Gonzalez.
+
+Optical engineer, PhD.
+
 
 sergio.bonaque.gonzalez@gmail.com
+
 
 Example of use:
 
