@@ -11,31 +11,31 @@ sergio.bonaque.gonzalez@gmail.com
 
 Example of use:
 
-import zernikes
+    import zernikes
 
-import numpy as np
-
-
-
-RESOLUTION = 512
-
-NMODES = 20
-
-AMPLITUDES = np.random.rand(NMODES)
+    import numpy as np
 
 
 
-phase = np.zeros([RESOLUTION,RESOLUTION])
+    RESOLUTION = 512
 
-for i in range(NMODES)
+    NMODES = 20
 
-  zernike = AMPLITUDES(i) * zernikes.zernike(i+1, RESOLUTION)
+    AMPLITUDES = np.random.rand(NMODES)
+
+
+
+    phase = np.zeros([RESOLUTION,RESOLUTION])
+
+      for i in range(NMODES)
+
+        zernike = AMPLITUDES(i) * zernikes.zernike(i+1, RESOLUTION)
   
-  phase += phase
+        phase += phase
   
   
   
-pupil = circularMask(RESOLUTION)  
+    pupil = circularMask(RESOLUTION)  
 
-phase *= pupil
+    phase *= pupil
 
